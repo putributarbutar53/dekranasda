@@ -1,0 +1,1484 @@
+﻿<!DOCTYPE html>
+<!--[if IE 9 ]><html class="ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en">
+<!-- Copied from https://velikorodnov.com/html/revija/page_author.html by Cyotek WebCopy 1.7.0.600, Saturday, September 14, 2019, 12:30:17 AM --><!--<![endif]-->
+<head>
+
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,500,700">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic">
+  <title>Revija - Author page</title>
+  <meta name="format-detection" content="telephone=no">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!--meta info-->
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <link rel="shortcut icon" type="image/x-icon" href="images/fav_icon.ico">
+  <!--stylesheet include-->
+  <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" media="all" href="css/style.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" media="all" href="css/responsive.css">
+  <link rel="stylesheet" type="text/css" media="all" href="css/styleswitcher.css">
+  <link rel="stylesheet" type="text/css" media="all" href="css/colorpicker.css">
+  <link rel="stylesheet" type="text/css" media="all" href="css/owl.carousel.css">
+  <!--modernizr-->
+  <script src="js/jquery.modernizr.js"></script>
+  
+</head>
+<body class="wide_layout">
+  <!--styleswitcher-->
+  <div id="styleswitcher" class="closed">
+    <button class="open_sw"><i class="fa fa-cogs"></i></button>
+    <h4 class="section_title section_title_var2">Style Switcher</h4>
+    <ul>
+      <li>
+        <p>Layout type</p>
+        <div class="resize_buttons">
+          <button data-layout="wide" class="active button button_type_2 button_grey_light">Wide</button>
+          <button data-layout="boxed" class="button button_type_2 button_grey_light">Boxed</button>
+        </div>
+      </li>
+      <li>
+        <p>Header style</p>
+        <div class="custom_select">
+          <div class="select_title">Header 1</div>
+            <ul class="select_list"></ul>
+            <select name="header_type">
+              <option value="Header 1">Header 1</option>
+              <option value="Header 2">Header 2</option>
+              <option value="Header 3">Header 3</option>  
+              <option value="Header 4">Header 4</option>
+              <option value="Header 5">Header 5</option>
+            </select>
+        </div>
+      </li>
+      <li>
+        <p>Footer style</p>
+        <div class="custom_select">
+          <div class="select_title">Footer 1</div>
+          <ul class="select_list"></ul>
+          <select name="footer_type">
+            <option value="Footer 1">Footer 1</option>
+            <option value="Footer 2">Footer 2</option>
+            <option value="Footer 3">Footer 3</option>  
+            <option value="Footer 4">Footer 4</option>
+            <option value="Footer 5">Footer 5</option>
+          </select>
+        </div>
+      </li>
+      <li>
+        <p>Background for boxed layout</p>
+        <div class="custom_select">
+          <div class="select_title">Color</div>
+          <ul class="select_list"></ul>
+          <select name="bg_color">
+            <option value="Image">Image</option>
+            <option value="Color">Color</option>
+          </select>
+        </div>
+      </li>
+      <li>
+        <div class="bg_select_color">
+          <p>Background color:</p><button id="select_color"></button>
+        </div>
+      </li>
+      <li>
+        <div class="bg_select_image" id="selectBackgroundImg">
+          <p>Background pattern:</p>
+          <button class="bg_image_button" data-image="images/bg1.jpg"></button>
+          <button class="bg_image_button" data-image="images/bg2.png"></button>
+        </div>
+      </li>
+    </ul>
+    <button type="reset" class="button button_type_2 button_grey">Reset</button>
+  </div>
+  <div class="loader"></div>
+  <!--[if (lt IE 9) | IE 9]>
+    <div class="ie_message_block">
+      <div class="container">
+        <div class="wrapper">
+          <div class="clearfix"><i class="fa fa-exclamation-triangle f_left"></i><b>Attention!</b> This page may   not display correctly. You are using an outdated version of Internet Explorer. For a faster, safer browsing experience.<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode" class="button button_type_3 button_grey_light f_right" target="_blank">Update Now!</a></div>
+        </div>
+      </div>
+    </div>
+  <![endif]-->
+
+  <!--cookie-->
+  <!-- <div class="cookie">
+          <div class="container">
+            <div class="clearfix">
+              <span>Please note this website requires cookies in order to function correctly, they do not store any specific information about you personally.</span>
+              <div class="f_right"><a href="#" class="button button_type_3 button_orange">Accept Cookies</a><a href="#" class="button button_type_3 button_grey_light">Read More</a></div>
+            </div>
+          </div>
+        </div>-->
+  <div class="wrapper_container">
+    <!--==============================header=================================-->
+    <header role="banner" class="header header_6">
+      <div class="h_top_part">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="header_top mobile_menu">
+                <nav>
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Forums</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </nav>
+                <div class="login_block">
+                  <ul>
+                    <!--Login-->
+                    <li class="login_button">
+                      <a href="#" role="button"><i class="fa fa-user login_icon"></i>Login</a>
+                      <div class="popup">
+                        <form>
+                          <ul>
+                            <li>
+                              <label for="username">Username</label><br>
+                              <input type="text" name="" id="username">
+                            </li>
+                            <li>
+                              <label for="password">Password</label><br>
+                              <input type="password" name="" id="password">
+                            </li>
+                            <li>
+                              <input type="checkbox" id="checkbox_10"><label for="checkbox_10">Remember me</label>
+                            </li>
+                            <li>
+                              <a href="#" class="button button_orange">Log In</a>
+                              <div class="t_align_c">
+                                <a href="#" class="color_dark">Forgot your password?</a><br>
+                                <a href="#" class="color_dark">Forgot your username?</a>
+                              </div>
+                            </li>
+                          </ul>
+                        </form>
+                        <section class="login_footer">
+                          <h3>New Customer?</h3>
+                          <a href="#" class="button button_grey">Create an Account</a>
+                        </section>
+                      </div>
+                    </li>
+                    <!--language settings-->
+                    <li class="lang_button">
+                      <a role="button" href="#"><img class="d_inline_middle m_right_10 m_mxs_right_0" src="images/flag_en.jpg" alt=""><span class="d_mxs_none">English</span></a>
+                      <ul class="dropdown_list">
+                        <li><a href="#" class="tr_delay_hover default_t_color"><img class="d_inline_middle" src="images/flag_en.jpg" alt="">English</a></li>
+                        <li><a href="#" class="tr_delay_hover default_t_color"><img class="d_inline_middle" src="images/flag_g.jpg" alt="">German</a></li>
+                        <li><a href="#" class="tr_delay_hover default_t_color"><img class="d_inline_middle" src="images/flag_s.jpg" alt="">Spanish</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="h_bot_part">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="clearfix">
+                <a href="index.html" class="f_left logo"><img src="images/logo.png" alt=""></a>
+                <a href="#" class="f_right"><img src="images/header_ph.jpg" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--main menu container-->
+      <div class="menu_wrap">
+        <div class="container clearfix menu_border_wrap">
+          <!--button for responsive menu-->
+          <button id="menu_button">
+              Menu
+            </button>
+          <!--main menu-->
+          <nav role="navigation" class="main_menu menu_var2">  
+            <ul>
+              <li><a href="#">Home</a><span class="plus"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>
+                <!--sub menu-->
+                <div class="sub_menu_wrap home clearfix">
+                  <div>
+                    <div>Homepage Layouts</div>
+                    <ul>
+                      <li><a href="index.html">Home 1</a></li>
+                      <li><a href="home_2.html">Home 2</a></li>
+                      <li><a href="home_3.html">Home 3</a></li>
+                      <li><a href="home_4.html">Home 4</a></li>
+                      <li><a href="home_5.html">Home 5</a></li>
+                    </ul>
+                  </div>
+                  <div>
+                    <div>Header Styles</div>
+                    <ul>
+                      <li><a href="index.html">Header 1</a></li>
+                      <li><a href="home_2.html">Header 2</a></li>
+                      <li><a href="home_3.html">Header 3</a></li>
+                      <li><a href="home_4.html">Header 4</a></li>
+                      <li><a href="home_5.html">Header 5</a></li>
+                    </ul>
+                  </div>
+                  <div>
+                    <div>Footer Styles</div>
+                    <ul>
+                      <li><a href="index.html">Footer 1</a></li>
+                      <li><a href="home_2.html">Footer 2</a></li>
+                      <li><a href="home_3.html">Footer 3</a></li>
+                      <li><a href="home_4.html">Footer 4</a></li>
+                      <li><a href="home_5.html">Footer 5</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li><a href="#">Business</a><span class="plus"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>
+                 
+              </li>
+              <li><a href="#">Sport</a><span class="plus"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>
+                 
+              </li>
+              <li><a href="#">Health</a><span class="plus"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>
+                 
+              </li>
+              <li class="current_5"><a href="#">Pages</a><span class="plus"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>
+                <!--sub menu-->
+                <div class="sub_menu_wrap type_2 clearfix">
+                  <ul>
+                    <li><a href="page_full_width.html">Full width page</a></li>
+                    <li class="current"><a href="page_author.html">Author page</a></li>
+                    <li><a href="page_about.html">About us</a></li>
+                    <li><a href="page_contributors.html">Contributors</a></li>
+                    <li><a href="page_contact.html">Contact</a></li>
+                    <li><a href="page_404.html">404 page</a></li>
+                    <li><a href="page_archives.html">Archives</a></li>
+                    <li><a href="page_tags.html">Tags</a></li>
+                    <li><a href="page_search_results.html">Search results</a></li>
+                    <li><a href="page_sitemap.html">Sitemap</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#">Features</a><span class="plus"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>
+                <!--sub menu-->
+                <div class="sub_menu_wrap type_2 clearfix">
+                  <ul>
+                    <li><a href="features_elements.html">Elements</a></li>
+                    <li><a href="features_typography.html">Typography</a></li>
+                    <li><a href="features_columns.html">Columns</a></li>
+                    <li><a href="index_rtl.html">RTL layout</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#">Blog</a><span class="plus"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>
+                 
+              </li>
+              <li><a href="#">Portfolio</a><span class="plus"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>
+                 
+              </li>
+              <li><a href="#">Forums</a><span class="plus"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>
+                 
+              </li>
+              <li><a href="#">Contact</a><span class="plus"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>
+
+              </li>
+            </ul>
+          </nav>
+          <div class="search-holder">
+            <div class="search_box">
+              <div class="shopping_button button_orange_hover">
+                <button class="shop_button button">
+                  <i class="fa fa-shopping-cart"></i>
+                </button>
+                <div class="shopping_cart">
+                  <div class="sc_header">Recently added item(s)</div>
+                  <div class="products_list">
+                    <ul>
+                      <li>
+                        <div>
+                          <!--product image-->
+                          <img src="images/shopping_c_img_1.jpg" alt="">
+                          <!--product description-->
+                          <div class="product_description">
+                            <a href="#">Cursus eleifend elit aenean</a>
+                            <div>
+                              1 x $499.00
+                            </div>
+                          </div>
+                          <!--product price-->
+                          <button class="close_product"><i class="fa fa-times-circle"></i></button>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <!--product image-->
+                          <img src="images/shopping_c_img_2.jpg" alt="">
+                          <!--product description-->
+                          <div class="product_description">
+                            <a href="#">Cursus eleifend elit aenean</a>
+                            <div>
+                              1 x $1599.00
+                            </div>
+                            <div>
+                              Size: 2-Seat Sofa, <br>
+                              Color: Red
+                            </div>
+                          </div>
+                          <!--product price-->
+                          <button class="close_product"><i class="fa fa-times-circle"></i></button>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <!--product image-->
+                          <img src="images/shopping_c_img_3.jpg" alt="">
+                          <!--product description-->
+                          <div class="product_description">
+                            <a href="#">Cursus eleifend elit aenean</a>
+                            <div>
+                              2 x $99.00
+                            </div>
+                          </div>
+                          <!--product price-->
+                          <button class="close_product"><i class="fa fa-times-circle"></i></button>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <!--total price-->
+                  <div class="total_price">
+                    <ul>
+                      <li><span>Tax:</span><span>$0.00</span></li>
+                      <li><span>Discount:</span><span>$37.00</span></li>
+                      <li><span>Total:</span><span>$999.00</span></li>
+                    </ul>
+                  </div>
+                  <div class="sc_footer">
+                    <button class="button button_grey full_width">View Cart</button>
+                    <button class="button button_orange full_width">Checkout</button>
+                  </div>
+                </div>
+              </div>
+              <button class="search_button button button_orange_hover">
+                <i class="fa fa-search"></i>
+              </button>
+            </div>
+            <!--search form-->
+            <div class="searchform_wrap">
+              <div class="container vc_child h_inherit relative">
+                <form role="search">
+                  <input type="text" name="search" placeholder="Type search text and hit enter">
+                </form>
+                <button class="close_search_form">
+                  <i class="fa fa-times"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--==============================Breadcrumb================================-->
+    <div class="breadcrumb">
+      <div class="container">
+        <div>
+          <span><a href="#">Home</a></span> / Author page
+        </div>
+      </div>
+    </div>
+    <!--==============================content================================-->
+    <div class="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-8 col-sm-12">
+            <!--Author info-->
+            <div class="section">
+              <h2 class="section_title section_title_big">About Jessica Priston</h2>
+              <div class="author_details clearfix">
+                <div class="f_left">
+                  <div>
+                    <img src="images/writer_1-2.jpg" alt="">
+                  </div>
+                  <a href="#" class="button button_type_3 button_grey_light">25 articles</a>
+                </div>
+                <div>
+                  <p>Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus. Vestibulum libero nisl, porta vel, scelerisque eget, malesuada at, neque. Vivamus eget nibh.
+                  Etiam cursus leo vel metus. Nulla facilisi. Aenean nec eros.</p>
+                  <div class="widget widget_social_icons type_2 type_border clearfix">
+                    <ul>
+                      <li class="website">
+                        <span class="tooltip">Website</span>
+                        <a href="#">
+                          <i class="fa fa-home"></i>
+                        </a>
+                      </li>
+                      <li class="facebook">
+                        <span class="tooltip">Facebook</span>
+                        <a href="#">
+                          <i class="fa fa-facebook"></i>
+                        </a>
+                      </li>
+                      <li class="twitter">
+                        <span class="tooltip">Twitter</span>
+                        <a href="#">
+                          <i class="fa fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li class="google_plus">
+                        <span class="tooltip">Google+</span>
+                        <a href="#">
+                          <i class="fa fa-google-plus"></i>
+                        </a>
+                      </li>
+                      <li class="rss">
+                        <span class="tooltip">Rss</span>
+                        <a href="#">
+                          <i class="fa fa-rss"></i>
+                        </a>
+                      </li>
+                      <li class="pinterest">
+                        <span class="tooltip">Pinterest</span>
+                        <a href="#">
+                          <i class="fa fa-pinterest"></i>
+                        </a>
+                      </li>
+                      <li class="instagram">
+                        <span class="tooltip">Instagram</span>
+                        <a href="#">
+                          <i class="fa fa-instagram"></i>
+                        </a>
+                      </li>
+                      <li class="linkedin">
+                        <span class="tooltip">LinkedIn</span>
+                        <a href="#">
+                          <i class="fa fa-linkedin"></i>
+                        </a>
+                      </li>
+                      <li class="vimeo">
+                        <span class="tooltip">Vimeo</span>
+                        <a href="#">
+                          <i class="fa fa-vimeo-square"></i>
+                        </a>
+                      </li>
+                      <li class="youtube">
+                        <span class="tooltip">Youtube</span>
+                        <a href="#">
+                          <i class="fa fa-youtube-play"></i>
+                        </a>
+                      </li>
+                      <li class="flickr">
+                        <span class="tooltip">Flickr</span>
+                        <a href="#">
+                          <i class="fa fa-flickr"></i>
+                        </a>
+                      </li>
+                      <li class="envelope">
+                        <span class="tooltip">Email</span>
+                        <a href="#">
+                          <i class="fa fa-envelope-o"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Author Posts-->
+            <div class="section read_post_list">
+              <h3 class="section_title">All posts by Jessica Priston</h3>
+              <ul class="row">
+                <!--Left Post-->
+                <li class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <div class="section_post_left">
+                    <div class="scale_image_container">
+                      <a href="#"><img src="images/news_img1.jpg" alt="" class="scale_image"></a>
+                      <div class="post_image_buttons">
+                        <a href="#" class="button banner_button food">Food</a>
+                        <a href="#" class="icon_box">
+                          <i class="fa fa-file-text"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="clearfix">
+                      <div class="f_left">
+                        <div class="event_date">July 01, 2014 5:50 am</div>
+                      </div>
+                      <div class="f_right event_info">
+                        <a href="#">
+                          <i class="fa fa-comments-o d_inline_m m_right_3"></i> 
+                          <span>5</span>
+                        </a>
+                        <a href="#">
+                          <i class="fa fa fa-heart-o d_inline_m m_right_3"></i> 
+                          <span>73</span>
+                        </a>
+                        <a href="#">
+                          <i class="fa fa-eye d_inline_m m_right_3"></i> 
+                          <span>192</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="post_text">
+                      <div class="post_theme">Story</div><h2 class="post_title"><a href="#">Nam elit agna endrerit</a></h2>
+                      <p>Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus. </p>
+                      <a href="#" class="button button_type_2 button_grey_light">Read More</a>
+                    </div>
+                  </div>
+                </li>
+                <!--Right Post-->
+                <li class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <div class="section_post_right">
+                    <div class="scale_image_container">
+                      <a href="#"><img src="images/news_img5.jpg" alt="" class="scale_image"></a>
+                      <div class="post_image_buttons">
+                        <a href="#" class="button banner_button fashion">Fashion</a>
+                        <a href="#" class="icon_box">
+                          <i class="fa fa-file-text"></i>
+                        </a>
+                      </div>
+                      <div class="canvas">
+                        <div class="circle" id="circles-1"></div>
+                        <br>
+                      </div>
+                    </div>
+                    <div class="clearfix">
+                      <div class="f_left">
+                        <div class="event_date">July 01, 2014 5:50 am</div>
+                      </div>
+                      <div class="f_right event_info">
+                        <a href="#">
+                          <i class="fa fa-comments-o d_inline_m m_right_3"></i> 
+                          <span>5</span>
+                        </a>
+                        <a href="#">
+                          <i class="fa fa fa-heart-o d_inline_m m_right_3"></i> 
+                          <span>73</span>
+                        </a>
+                        <a href="#">
+                          <i class="fa fa-eye d_inline_m m_right_3"></i> 
+                          <span>192</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="post_text">
+                      <h2 class="post_title"><a href="#">Donec eget tellus non erat lacinia fermentum</a></h2>
+                      <p>Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus. </p>
+                      <a href="#" class="button button_type_2 button_grey_light">Read More</a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <ul class="row">
+                <!--Left Post-->
+                <li class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <div class="section_post_left">
+                    <div class="scale_image_container">
+                      <a href="#"><img src="images/review_img3.jpg" alt="" class="scale_image"></a>
+                      <div class="post_image_buttons">
+                        <a href="#" class="button banner_button business">Business</a>
+                        <a href="#" class="icon_box">
+                          <i class="fa fa-file-text"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="clearfix">
+                      <div class="f_left">
+                        <div class="event_date">July 01, 2014 5:50 am</div>
+                      </div>
+                      <div class="f_right event_info">
+                        <a href="#">
+                          <i class="fa fa-comments-o d_inline_m m_right_3"></i> 
+                          <span>5</span>
+                        </a>
+                        <a href="#">
+                          <i class="fa fa fa-heart-o d_inline_m m_right_3"></i> 
+                          <span>73</span>
+                        </a>
+                        <a href="#">
+                          <i class="fa fa-eye d_inline_m m_right_3"></i> 
+                          <span>192</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="post_text">
+                      <h2 class="post_title"><a href="#">Lorem ipsum dolor sit amet</a></h2>
+                      <p>Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus. </p>
+                      <a href="#" class="button button_type_2 button_grey_light">Read More</a>
+                    </div>
+                  </div>
+                </li>
+                <!--Right Post-->
+                <li class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <div class="section_post_right">
+                    <div class="scale_image_container">
+                      <a href="#"><img src="images/review_img1.jpg" alt="" class="scale_image"></a>
+                      <div class="post_image_buttons">
+                        <a href="#" class="button banner_button travel">Travel</a>
+                        <a href="#" class="icon_box">
+                          <i class="fa fa-video-camera"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="clearfix">
+                      <div class="f_left">
+                        <div class="event_date">July 01, 2014 5:50 am</div>
+                      </div>
+                      <div class="f_right event_info">
+                        <a href="#">
+                          <i class="fa fa-comments-o d_inline_m m_right_3"></i> 
+                          <span>5</span>
+                        </a>
+                        <a href="#">
+                          <i class="fa fa fa-heart-o d_inline_m m_right_3"></i> 
+                          <span>73</span>
+                        </a>
+                        <a href="#">
+                          <i class="fa fa-eye d_inline_m m_right_3"></i> 
+                          <span>192</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="post_text">
+                      <div class="post_theme">Exlusive</div><h2 class="post_title"><a href="#">Etiam cursus leo vel</a></h2>
+                      <p>Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus. </p>
+                      <a href="#" class="button button_type_2 button_grey_light">Read More</a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <div class="section t_align_c">
+                <a href="#"><img src="images/728x90.jpg" alt=""></a>
+              </div>
+              <ul class="row">
+                <!--Left Post-->
+                <li class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <div class="section_post_left">
+                    <div class="scale_image_container">
+                      <a href="#"><img src="images/news_img6.jpg" alt="" class="scale_image"></a>
+                      <div class="post_image_buttons">
+                        <a href="#" class="button banner_button health">Health</a>
+                        <a href="#" class="icon_box">
+                          <i class="fa fa-volume-up"></i>
+                        </a>
+                      </div>
+                      <div class="canvas">
+                        <div class="circle" id="circles-2"></div>
+                        <br>
+                      </div>
+                    </div>
+                    <div class="clearfix">
+                      <div class="f_left">
+                        <div class="event_date">July 01, 2014 5:50 am</div>
+                      </div>
+                      <div class="f_right event_info">
+                        <a href="#">
+                          <i class="fa fa-comments-o d_inline_m m_right_3"></i> 
+                          <span>5</span>
+                        </a>
+                        <a href="#">
+                          <i class="fa fa fa-heart-o d_inline_m m_right_3"></i> 
+                          <span>73</span>
+                        </a>
+                        <a href="#">
+                          <i class="fa fa-eye d_inline_m m_right_3"></i> 
+                          <span>192</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="post_text">
+                      <h2 class="post_title"><a href="#">Aliquam erat volutpat</a></h2>
+                      <p>Donec eget tellus non erat lacinia fermentum. Donec in velit vel ipsum auctor pulvinar. Vestibulum iaculis lacinia est. Proin dictum elementum velit.</p>
+                      <a href="#" class="button button_type_2 button_grey_light">Read More</a>
+                    </div>
+                  </div>
+                </li>
+                <!--Right Post-->
+                <li class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <div class="section_post_right">
+                    <div class="scale_image_container">
+                      <a href="#"><img src="images/news_img7.jpg" alt="" class="scale_image"></a>
+                      <div class="post_image_buttons">
+                        <a href="#" class="button banner_button food">Food</a>
+                        <a href="#" class="icon_box">
+                          <i class="fa fa-file-text"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="clearfix">
+                      <div class="f_left">
+                        <div class="event_date">July 01, 2014 5:50 am</div>
+                      </div>
+                      <div class="f_right event_info">
+                        <a href="#">
+                          <i class="fa fa-comments-o d_inline_m m_right_3"></i> 
+                          <span>5</span>
+                        </a>
+                        <a href="#">
+                          <i class="fa fa fa-heart-o d_inline_m m_right_3"></i> 
+                          <span>73</span>
+                        </a>
+                        <a href="#">
+                          <i class="fa fa-eye d_inline_m m_right_3"></i> 
+                          <span>192</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="post_text">
+                      <h2 class="post_title"><a href="#">Sed laoreet aliquam leo</a></h2>
+                      <p>Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipisMauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet.</p>
+                      <a href="#" class="button button_type_2 button_grey_light">Read More</a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <ul class="row">
+                <!--Left Post-->
+                <li class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <div class="section_post_left">
+                    <div class="scale_image_container">
+                      <a href="#"><img src="images/news_img8.jpg" alt="" class="scale_image"></a>
+                      <div class="post_image_buttons">
+                        <a href="#" class="button banner_button entertainment">Entertainment</a>
+                        <a href="#" class="icon_box">
+                          <i class="fa fa-video-camera"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="clearfix">
+                      <div class="f_left">
+                        <div class="event_date">July 01, 2014 5:50 am</div>
+                      </div>
+                      <div class="f_right event_info">
+                        <a href="#">
+                          <i class="fa fa-comments-o d_inline_m m_right_3"></i> 
+                          <span>5</span>
+                        </a>
+                        <a href="#">
+                          <i class="fa fa fa-heart-o d_inline_m m_right_3"></i> 
+                          <span>73</span>
+                        </a>
+                        <a href="#">
+                          <i class="fa fa-eye d_inline_m m_right_3"></i> 
+                          <span>192</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="post_text">
+                      <div class="post_theme">Interview</div><h2 class="post_title"><a href="#">Quisque diam lorem interdum vitae </a></h2>
+                      <p>Nulla venenatis. In pede mi, aliquet sit amet, euismod in,auctor ut, ligula. Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis.</p>
+                      <a href="#" class="button button_type_2 button_grey_light">Read More</a>
+                    </div>
+                  </div>
+                </li>
+                <!--Right Post-->
+                <li class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <div class="section_post_right">
+                    <div class="scale_image_container">
+                      <a href="#"><img src="images/news_img9.jpg" alt="" class="scale_image"></a>
+                      <div class="post_image_buttons">
+                        <a href="#" class="button banner_button travel">Travel</a>
+                        <a href="#" class="icon_box">
+                          <i class="fa fa-picture-o"></i>
+                        </a>
+                      </div>
+                      <div class="canvas">
+                        <div class="circle" id="circles-3"></div>
+                        <br>
+                      </div>
+                    </div>
+                    <div class="clearfix">
+                      <div class="f_left">
+                        <div class="event_date">July 01, 2014 5:50 am</div>
+                      </div>
+                      <div class="f_right event_info">
+                        <a href="#">
+                          <i class="fa fa-comments-o d_inline_m m_right_3"></i> 
+                          <span>5</span>
+                        </a>
+                        <a href="#">
+                          <i class="fa fa fa-heart-o d_inline_m m_right_3"></i> 
+                          <span>73</span>
+                        </a>
+                        <a href="#">
+                          <i class="fa fa-eye d_inline_m m_right_3"></i> 
+                          <span>192</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="post_text">
+                      <h2 class="post_title"><a href="#">Donec sagittis euismod purus</a></h2>
+                      <p>Vestibulum sed ante. Donec sagittis euismod purus. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+                      <a href="#" class="button button_type_2 button_grey_light">Read More</a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <ul class="row">
+                <!--Left Post-->
+                <li class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <div class="section_post_left">
+                    <div class="scale_image_container">
+                      <a href="#"><img src="images/news_img10.jpg" alt="" class="scale_image"></a>
+                      <div class="post_image_buttons">
+                        <a href="#" class="button banner_button sport">Sport</a>
+                        <a href="#" class="icon_box">
+                          <i class="fa fa-picture-o"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="clearfix">
+                      <div class="f_left">
+                        <div class="event_date">July 01, 2014 5:50 am</div>
+                      </div>
+                      <div class="f_right event_info">
+                        <a href="#">
+                          <i class="fa fa-comments-o d_inline_m m_right_3"></i> 
+                          <span>5</span>
+                        </a>
+                        <a href="#">
+                          <i class="fa fa fa-heart-o d_inline_m m_right_3"></i> 
+                          <span>73</span>
+                        </a>
+                        <a href="#">
+                          <i class="fa fa-eye d_inline_m m_right_3"></i> 
+                          <span>192</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="post_text">
+                      <h2 class="post_title"><a href="#">Vestibulum libero nisl</a></h2>
+                      <p>Integer rutrum ante eu lacus.Vestibulum libero nisl, porta vel, scelerisque eget, malesuada at, neque. Vivamus eget nibh. Etiam cursus leo vel metus.</p>
+                      <a href="#" class="button button_type_2 button_grey_light">Read More</a>
+                    </div>
+                  </div>
+                </li>
+                <!--Right Post-->
+                <li class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <div class="section_post_right">
+                    <div class="scale_image_container">
+                      <a href="#"><img src="images/news_img11.jpg" alt="" class="scale_image"></a>
+                      <div class="post_image_buttons">
+                        <a href="#" class="button banner_button travel">Travel</a>
+                        <a href="#" class="icon_box">
+                          <i class="fa fa-file-text"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="clearfix">
+                      <div class="f_left">
+                        <div class="event_date">July 01, 2014 5:50 am</div>
+                      </div>
+                      <div class="f_right event_info">
+                        <a href="#">
+                          <i class="fa fa-comments-o d_inline_m m_right_3"></i> 
+                          <span>5</span>
+                        </a>
+                        <a href="#">
+                          <i class="fa fa fa-heart-o d_inline_m m_right_3"></i> 
+                          <span>73</span>
+                        </a>
+                        <a href="#">
+                          <i class="fa fa-eye d_inline_m m_right_3"></i> 
+                          <span>192</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="post_text">
+                      <h2 class="post_title"><a href="#">Quis autem vel eum iure</a></h2>
+                      <p>Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse sollicitudin velit sed leo.</p>
+                      <a href="#" class="button button_type_2 button_grey_light">Read More</a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <div class="more_news">
+                <ul class="row">
+                  <!--Left Post-->
+                  <li class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <div class="section_post_left">
+                      <div class="scale_image_container">
+                        <a href="#"><img src="images/news_img6.jpg" alt="" class="scale_image"></a>
+                        <div class="post_image_buttons">
+                          <a href="#" class="button banner_button health">Health</a>
+                          <a href="#" class="icon_box">
+                            <i class="fa fa-volume-up"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="clearfix">
+                        <div class="f_left">
+                          <div class="event_date">July 01, 2014 5:50 am</div>
+                        </div>
+                        <div class="f_right event_info">
+                          <a href="#">
+                            <i class="fa fa-comments-o d_inline_m m_right_3"></i> 
+                            <span>5</span>
+                          </a>
+                          <a href="#">
+                            <i class="fa fa fa-heart-o d_inline_m m_right_3"></i> 
+                            <span>73</span>
+                          </a>
+                          <a href="#">
+                            <i class="fa fa-eye d_inline_m m_right_3"></i> 
+                            <span>192</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="post_text">
+                        <h2 class="post_title"><a href="#">Aliquam erat volutpat</a></h2>
+                        <p>Donec eget tellus non erat lacinia fermentum. Donec in velit vel ipsum auctor pulvinar. Vestibulum iaculis lacinia est. Proin dictum elementum velit.</p>
+                        <a href="#" class="button button_type_2 button_grey_light">Read More</a>
+                      </div>
+                    </div>
+                  </li>
+                  <!--Right Post-->
+                  <li class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <div class="section_post_right">
+                      <div class="scale_image_container">
+                        <a href="#"><img src="images/news_img7.jpg" alt="" class="scale_image"></a>
+                        <div class="post_image_buttons">
+                          <a href="#" class="button banner_button food">food</a>
+                          <a href="#" class="icon_box">
+                            <i class="fa fa-file-text"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="clearfix">
+                        <div class="f_left">
+                          <div class="event_date">July 01, 2014 5:50 am</div>
+                        </div>
+                        <div class="f_right event_info">
+                          <a href="#">
+                            <i class="fa fa-comments-o d_inline_m m_right_3"></i> 
+                            <span>5</span>
+                          </a>
+                          <a href="#">
+                            <i class="fa fa fa-heart-o d_inline_m m_right_3"></i> 
+                            <span>73</span>
+                          </a>
+                          <a href="#">
+                            <i class="fa fa-eye d_inline_m m_right_3"></i> 
+                            <span>192</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="post_text">
+                        <h2 class="post_title"><a href="#">Sed laoreet aliquam leo</a></h2>
+                        <p>Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipisMauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet.</p>
+                        <a href="#" class="button button_type_2 button_grey_light">Read More</a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <ul class="row">
+                  <!--Left Post-->
+                  <li class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <div class="section_post_left">
+                      <div class="scale_image_container">
+                        <a href="#"><img src="images/review_img3.jpg" alt="" class="scale_image"></a>
+                        <div class="post_image_buttons">
+                          <a href="#" class="button banner_button business">Business</a>
+                          <a href="#" class="icon_box">
+                            <i class="fa fa-file-text"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="clearfix">
+                        <div class="f_left">
+                          <div class="event_date">July 01, 2014 5:50 am</div>
+                        </div>
+                        <div class="f_right event_info">
+                          <a href="#">
+                            <i class="fa fa-comments-o d_inline_m m_right_3"></i> 
+                            <span>5</span>
+                          </a>
+                          <a href="#">
+                            <i class="fa fa fa-heart-o d_inline_m m_right_3"></i> 
+                            <span>73</span>
+                          </a>
+                          <a href="#">
+                            <i class="fa fa-eye d_inline_m m_right_3"></i> 
+                            <span>192</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="post_text">
+                        <h2 class="post_title"><a href="#">Lorem ipsum dolor sit amet</a></h2>
+                        <p>Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus. </p>
+                        <a href="#" class="button button_type_2 button_grey_light">Read More</a>
+                      </div>
+                    </div>
+                  </li>
+                  <!--Right Post-->
+                  <li class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <div class="section_post_right">
+                      <div class="scale_image_container">
+                        <a href="#"><img src="images/review_img1.jpg" alt="" class="scale_image"></a>
+                        <div class="post_image_buttons">
+                          <a href="#" class="button banner_button travel">Travel</a>
+                          <a href="#" class="icon_box">
+                            <i class="fa fa-video-camera"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="clearfix">
+                        <div class="f_left">
+                          <div class="event_date">July 01, 2014 5:50 am</div>
+                        </div>
+                        <div class="f_right event_info">
+                          <a href="#">
+                            <i class="fa fa-comments-o d_inline_m m_right_3"></i> 
+                            <span>5</span>
+                          </a>
+                          <a href="#">
+                            <i class="fa fa fa-heart-o d_inline_m m_right_3"></i> 
+                            <span>73</span>
+                          </a>
+                          <a href="#">
+                            <i class="fa fa-eye d_inline_m m_right_3"></i> 
+                            <span>192</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="post_text">
+                        <div class="post_theme">Exlusive</div><h2 class="post_title"><a href="#">Etiam cursus leo vel</a></h2>
+                        <p>Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus. </p>
+                        <a href="#" class="button button_type_2 button_grey_light">Read More</a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="load_more_wrapper">
+                <h3 class="section_title"><a href="#" class="more_news_button">Load More</a></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <!--Featured video-->
+            <div class="section">
+              <h3 class="section_title">Featured Video</h3>
+              <div class="t_align_c">
+                <div class="iframe_video_container">
+                  <iframe src="//player.vimeo.com/video/64473966?title=0&byline=0&portrait=0&color=dedede" allowfullscreen=""></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="section t_align_c">
+              <a href="#" class="m_top_50 d_block"><img src="images/336x280.jpg" alt=""></a>
+            </div>
+            <div class="section">
+              <h3 class="section_title">Social Media</h3>
+              <ul class="social_media_list clearfix">
+                <li>
+                  <a href="#" class="rss">
+                    <i class="fa fa-rss"></i>
+                    <div>2,035</div>
+                    <p>Subscribers</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="fb">
+                    <i class="fa fa-facebook"></i>
+                    <div>3,794</div>
+                    <p>Fans</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="g_plus">
+                    <i class="fa fa-google-plus"></i>
+                    <div>941</div>
+                    <p>Followers</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="you_tube">
+                    <i class="fa fa-youtube-play"></i>
+                    <div>7,820</div>
+                    <p>Subscribers</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="twitter">
+                    <i class="fa fa-twitter"></i>
+                    <div>1,562</div>
+                    <p>Followers</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="pint">
+                    <i class="fa fa-pinterest"></i>
+                    <div>1,310</div>
+                    <p>Followers</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="section">
+              <h3 class="section_title">Meat Our Writers</h3>
+              <ul class="writers_list clearfix">
+                <li>
+                  <a href="#">
+                    <div>
+                      <img src="images/writer_1.jpg" alt="">
+                    </div>
+                    <div class="post_text">
+                      <h4>Jessica Priston</h4>
+                      <div class="event_date">Writer</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <img src="images/writer_2.jpg" alt="">
+                    </div>
+                    <div class="post_text">
+                      <h4>John Franklin</h4>
+                      <div class="event_date">Contributing Editor</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <img src="images/writer_3.jpg" alt="">
+                    </div>
+                    <div class="post_text">
+                      <h4>Camala Haddon</h4>
+                      <div class="event_date">Writer</div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="section form_section">
+              <h3 class="section_title">Newsletter Sign Up</h3>
+              <div class="form_text">Sign up to our newsletter and get exclusive deals you will not find anywhere else straight to your inbox!</div>
+              <form id="newsletter">
+                <button type="submit" class="btn-email button button_grey" data-type="submit"><i class="fa fa-envelope-o"></i></button>
+                <div class="wrapper">
+                  <input type="email" placeholder="Your email address" name="newsletter-email">
+                </div> 
+              </form>
+            </div>
+            <div class="section side_bar_banners clearfix">
+              <h3 class="section_title">Top Reviews</h3>
+              <div class="scale_image_container">
+                <a href="#"><img src="images/review_img1.jpg" alt="" class="scale_image"></a>
+                <!--caption-->
+                <div class="caption_type_1">
+                  <div class="caption_inner">
+                    <div class="clearfix">
+                      <a href="#" class="button banner_button travel">Travel</a>
+                      <div class="event_date">July 01, 2014 5:50 am</div>
+                    </div>
+                    <a href="#"><h3>Top Trends on The Runways This Season</h3></a>
+                  </div>
+                </div>
+                <div class="canvas">
+                  <div class="circle" id="circles-4"></div>
+                  <br>
+                </div>
+              </div>
+              <div class="scale_image_container">
+                <a href="#"><img src="images/review_img2.jpg" alt="" class="scale_image"></a>
+                <!--caption-->
+                <div class="caption_type_1">
+                  <div class="caption_inner">
+                    <div class="clearfix">
+                      <a href="#" class="button banner_button entertainment">Entertainment</a>
+                      <div class="event_date">July 01, 2014 5:50 am</div>
+                    </div>
+                    <a href="#"><h3>Top Trends on The Runways This Season</h3></a>
+                  </div>
+                </div>
+                <div class="canvas">
+                  <div class="circle" id="circles-5"></div>
+                  <br>
+                </div>
+              </div>
+              <div class="scale_image_container">
+                <a href="#"><img src="images/review_img3.jpg" alt="" class="scale_image"></a>
+                <!--caption-->
+                <div class="caption_type_1">
+                  <div class="caption_inner">
+                    <div class="clearfix">
+                      <a href="#" class="button banner_button business">Business</a>
+                      <div class="event_date">July 01, 2014 5:50 am</div>
+                    </div>
+                    <a href="#"><h3>Top Trends on The Runways This Season</h3></a>
+                  </div>
+                </div>
+                <div class="canvas">
+                  <div class="circle" id="circles-6"></div>
+                  <br>
+                </div>
+              </div>
+            </div>
+            <div class="section t_align_c">
+              <div class="box_image_conteiner">
+                <a href="#"><img src="images/125x125.jpg" alt=""></a>
+                <a href="#"><img src="images/125x125.jpg" alt=""></a>
+                <a href="#"><img src="images/125x125.jpg" alt=""></a>
+                <a href="#"><img src="images/125x125.jpg" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--==============================footer=================================-->
+    <!--markup footer-->
+    <footer class="footer footer_1">
+      <div class="top_footer_banner">
+        <a href="#"><img src="images/970x90.jpg" alt=""></a>
+      </div>
+      <div class="footer_top_part">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <div class="widget widget_text">
+                <h3 class="widget_title">About</h3>
+                <p>Suspendisse sollicitudin velit sed leo. Ut pharetra augue nec augue. Nam elit agna, endrerit sit amet, tincidunt ac, viverra sed, nulla.</p> <br>
+                <p>Quisque diam lorem, interdum. vitae, dapibus ac, scelerisque vitae, pede. Donec eget tellus non erat lacinia fermentum. Donec in velit vel ipsum auctor.</p>
+              </div>
+              <div class="widget widget_tags">
+                <h3 class="widget_title">Tags</h3>
+                <div class="box-tags">
+                  <a class="btn-tags" href="#">Art</a>
+                  <a class="btn-tags" href="#">Beauty</a>
+                  <a class="btn-tags" href="#">Business</a>
+                  <a class="btn-tags" href="#">Culture</a>
+                  <a class="btn-tags" href="#">Design</a>
+                  <a class="btn-tags" href="#">Decor</a>
+                  <a class="btn-tags" href="#">Interteiment</a>
+                  <a class="btn-tags" href="#">Fashion</a>
+                  <a class="btn-tags" href="#">Health</a>
+                  <a class="btn-tags" href="#">Interior</a>
+                  <a class="btn-tags" href="#">Life</a>
+                  <a class="btn-tags" href="#">Lifestyle</a>
+                  <a class="btn-tags" href="#">Love</a>
+                  <a class="btn-tags" href="#">Nature</a>
+                  <a class="btn-tags" href="#">Pictures</a>
+                  <a class="btn-tags" href="#">Politics</a>
+                  <a class="btn-tags" href="#">Popular</a>
+                  <a class="btn-tags" href="#">Sport</a>
+                  <a class="btn-tags" href="#">Travel</a>  
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <div class="widget widget_flickr clearfix">
+                <h3 class="widget_title">Flickr Photos</h3>
+                <ul id="basicuse" class="thumbs"></ul>
+              </div>
+              <div class="widget_latest_tweets">
+                <h3 class="widget_title">Latest Tweets</h3>
+                <!--tweet list-->
+                <div class="tweets"></div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <div class="widget widget_facebook">
+                <h3 class="widget_title">Like Us On Facebook</h3>
+                <iframe class="m_bottom_45" src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Ffantemplates&width=350&height=180&colorscheme=dark&show_faces=true&header=false&stream=false&show_border=false&appId=438889712801266" style="border:none; overflow:hidden; width:100%; height:180px;"></iframe>
+              </div>
+              <div class="widget widget_social_icons clearfix">
+                <h3 class="widget_title">Stay Connected</h3>
+                <ul>
+                  <li class="facebook">
+                    <span class="tooltip">Facebook</span>
+                    <a href="#">
+                      <i class="fa fa-facebook"></i>
+                    </a>
+                  </li>
+                  <li class="twitter">
+                    <span class="tooltip">Twitter</span>
+                    <a href="#">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="google_plus">
+                    <span class="tooltip">Google+</span>
+                    <a href="#">
+                      <i class="fa fa-google-plus"></i>
+                    </a>
+                  </li>
+                  <li class="rss">
+                    <span class="tooltip">Rss</span>
+                    <a href="#">
+                      <i class="fa fa-rss"></i>
+                    </a>
+                  </li>
+                  <li class="pinterest">
+                    <span class="tooltip">Pinterest</span>
+                    <a href="#">
+                      <i class="fa fa-pinterest"></i>
+                    </a>
+                  </li>
+                  <li class="instagram">
+                    <span class="tooltip">Instagram</span>
+                    <a href="#">
+                      <i class="fa fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li class="linkedin">
+                    <span class="tooltip">LinkedIn</span>
+                    <a href="#">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                  </li>
+                  <li class="vimeo">
+                    <span class="tooltip">Vimeo</span>
+                    <a href="#">
+                      <i class="fa fa-vimeo-square"></i>
+                    </a>
+                  </li>
+                  <li class="youtube">
+                    <span class="tooltip">Youtube</span>
+                    <a href="#">
+                      <i class="fa fa-youtube-play"></i>
+                    </a>
+                  </li>
+                  <li class="flickr">
+                    <span class="tooltip">Flickr</span>
+                    <a href="#">
+                      <i class="fa fa-flickr"></i>
+                    </a>
+                  </li>
+                  <li class="envelope">
+                    <span class="tooltip">Contact Us</span>
+                    <a href="#">
+                      <i class="fa fa-envelope-o"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--copyright part-->
+      <div class="footer_bottom_part">
+        <div class="container clearfix">
+          <p>&copy; 2014 <span>Revija</span>. All Rights Reserved.</p>
+          <div class="mobile_menu">
+            <nav>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Health</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Sport</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Forums</a></li>
+                <li><a href="#">Shop</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!--scripts include-->
+  <script src="js/jquery-2.1.0.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/jquery.queryloader2.min.js"></script>
+  <script src="js/jflickrfeed.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/retina.js"></script>
+  <script src="js/styleswither.js"></script>
+  <script src="js/colorpicker.js"></script>
+  <script src="js/circles.min.js"></script>
+  <script src="plugins/twitter/jquery.tweet.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/script.js"></script>
+
+  <script>
+    var colors = [['#fa985d', '#ffffff']], circles = [];
+    var child = document.getElementById('circles-1');
+    circles.push(Circles.create({
+        id:         child.id,
+        value:      7.7,
+        radius:     19,
+        width:      3,
+        maxValue:   10,
+        duration:   1000,
+        text:       function(value){return value;},
+        colors:    ['#fa985d', '#ffffff']
+    }));
+
+    var child = document.getElementById('circles-2');
+    circles.push(Circles.create({
+        id:         child.id,
+        value:      9.2,
+        radius:     19,
+        width:      3,
+        maxValue:   10,
+        duration:   1000,
+        text:       function(value){return value;},
+        colors:    ['#fa985d', '#ffffff']
+    }));
+
+    var child = document.getElementById('circles-3');
+    circles.push(Circles.create({
+        id:         child.id,
+        value:      8,
+        radius:     19,
+        width:      3,
+        maxValue:   10,
+        duration:   1000,
+        text:       function(value){return value;},
+        colors:    ['#fa985d', '#ffffff']
+    }));
+
+    var child = document.getElementById('circles-4');
+    circles.push(Circles.create({
+        id:         child.id,
+        value:      8,
+        radius:     19,
+        width:      3,
+        maxValue:   10,
+        duration:   1000,
+        text:       function(value){return value;},
+        colors:    ['#fa985d', '#ffffff']
+    }));
+
+    var child = document.getElementById('circles-5');
+    circles.push(Circles.create({
+        id:         child.id,
+        value:      7.7,
+        radius:     19,
+        width:      3,
+        maxValue:   10,
+        duration:   1000,
+        text:       function(value){return value;},
+        colors:    ['#fa985d', '#ffffff']
+    }));
+
+    var child = document.getElementById('circles-6');
+    circles.push(Circles.create({
+        id:         child.id,
+        value:      9.2,
+        radius:     19,
+        width:      3,
+        maxValue:   10,
+        duration:   1000,
+        text:       function(value){return value;},
+        colors:    ['#fa985d', '#ffffff']
+    }));
+
+  </script>
+
+</body>
+<!-- Copied from https://velikorodnov.com/html/revija/page_author.html by Cyotek WebCopy 1.7.0.600, Saturday, September 14, 2019, 12:30:17 AM -->
+</html>
